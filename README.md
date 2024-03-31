@@ -5,6 +5,7 @@ Një aplikacion web për restorante, i cili ofron një menu virtuale dinamike, s
 Teknologjitë e përdorur:
 
 Html, Css, Js
+
 PHP dhe 
 Databaze MySQL
 
