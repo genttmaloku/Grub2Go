@@ -4,5 +4,11 @@ Një aplikacion web për restorante, i cili ofron një menu virtuale dinamike, s
 
 Teknologjitë e përdorur:
 Html, Css, Js
+
 PHP dhe 
+
 Databaze MySQL
+
+Ju lutemi mos hezitoni të na kontaktoni për çdo pyetje rreth këtij projekti.
+
+Email:malokugentt@gmail.com
