@@ -1,0 +1,72 @@
+<!-- Gastronomy WebPage
+Authors: Elird Elshani & Gent Maloku
+GPZa -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="website icon" type="png" href="images/websitelogo.png">
+</head>
+<body>
+    
+    <header>
+        
+        <img src="images/pagelogo.png" class="logo" alt="">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menupage.html">Menu</a></li>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="order.html">Order</a></li>
+
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="imageBox">
+            <img src="images/image1.png" alt="image1" class="active">
+            <img src="images/image2.png" alt="image2" >
+            <img src="images/image3.png" alt="image3" >
+            <img src="images/image4.png" alt="image4" >
+        </div>
+
+
+        <div class="contentBox">
+            <div class="active">
+                <h2>Eat Well, Feel Well </h2>
+                <p>At GRUB2GO we have a wide selection of healthy dishes to offer.   
+                </p>
+                <a href="menuPage.html">Menu</a>
+            </div>
+            <div>
+                <h2>Catering</h2>
+                <p>We offer catering services from Monday to Friday, so your events can have the highest quality of food!
+                </p>
+                
+            </div>
+            <div>
+                <h2>Freshness Delivered</h2>
+                <p>Our delivery services are available everyday, making it easier for our customers to enjoy our food anywhere they are. </p>
+                <a href="order.html">Order Now</a>
+            </div>
+            <div>
+                <h2>Join our Family</h2>
+                <p>Register now to become part of the GRUB2GO family and get exclusive news and offers!  </p>
+                <a href="register.html">Register</a>
+            </div>
+
+        </div>
+        <ul class="controls">
+            <li onclick="prevSlide();prevSlideText();"></li>
+            <li onclick="nextSlide();nextSlideText();"></li>
+        </ul>
+
+
+
+    </section>
+    
+   <script src="script.js"></script>
+    
+</body>
+</html>

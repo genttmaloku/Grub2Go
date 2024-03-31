@@ -1,0 +1,129 @@
+<!-- Gastronomy WebPage
+Authors: Elird Elshani & Gent Maloku
+GPZa -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="registerstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="images/websitelogo.png">
+    <title>Register</title>
+</head>
+<body>
+  <h1 class="toptitle">Join our Family!</h1>
+  <div class="container1">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">GRUB2GO</h3>
+        <p class="text">
+          Join our family to get exclusive news and offers in the future!
+        </p>
+        <div class="info">
+          <div class="information">
+            <img src="images/location.png" class="icon" alt="" />
+            <p>123 Example Road, Ex</p>
+          </div>
+          <div class="information">
+            <img src="images/email.png" class="icon" alt="" />
+            <p>grub2go22@gmail.com</p>
+          </div>
+          <div class="information">
+            <img src="images/phone.png" class="icon" alt="" />
+            <p>123-456-789</p>
+          </div>
+        </div>
+        <div class="social-media">
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+        <form name="form" id="form"  autocomplete="off" action="registerConnect.php" method="post">
+          <h3 class="title">REGISTER NOW</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" id="name"   />
+            <label for="">Name</label>
+            <span>Name</span>
+          </div>
+          <p id="alert1" class="alert"></p>
+          <div class="input-container">
+            <input type="text" name="surname" class="input" id="surname"   />
+            <label for="">Surname</label>
+            <span>Surname</span>
+          </div>
+          <p id="alert2" class="alert"></p>
+          <div class="input-container">
+            <input type="text" name="username" class="input" id="username"   />
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <p id="alertPw" class="alert"></p>
+          <div class="input-container">
+            <input type="email" name="email" class="input" id="email"  />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <p id="alert3" class="alert"></p>
+          <div class="input-container">
+            <input type="password" name="password" class="input" id="password"  />
+            <label for="">Password</label>
+            <span>Password</span>
+          </div>
+          <p id="alert4" class="alert"></p>
+          
+          <p id="alert5" class="alert"></p>
+          <input type="submit" value="Register" name="registerbtn" id="registerbtn"  onclick=" return validate()"  class="btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+          
+            <li><a href="https://reviewmeta.com/brand/grub2go">reviews</a></li>            
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="index.php">Return to Home Page</a></li>
+            
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="" class="socialimg"></i></a>
+            <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="" class="socialimg"></i></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="" class="socialimg"></i></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="" class="socialimg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+ <script src="register.js"></script>
+</body>
+</html>
